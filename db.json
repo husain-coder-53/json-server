@@ -1,8 +1,28 @@
 {
   "sms_send": [
     { "mobile": "1234567890", "status": "1", "message": "mobile incorrect" },
-    { "mobile": "2345678901", "status": "2", "message": "maximum retries done" },
-    { "mobile": "3456789012", "status": "3", "message": "Could not generate OTP" },
+    {
+      "mobile": "2345678901",
+      "status": "2",
+      "message": "maximum retries done"
+    },
+    {
+      "mobile": "3456789012",
+      "status": "3",
+      "message": "Could not generate OTP"
+    },
     { "mobile": "0123456789", "status": "0", "message": "Very good!" }
+  ],
+  "sms_validate": [
+    {
+      "mobile": "0123456789",
+      "status": "4",
+      "message": "Incorrect OTP entered!"
+    },
+    {
+      "mobile": "0234567891",
+      "status": "0",
+      "message": "Verified"
+    }
   ]
 }
