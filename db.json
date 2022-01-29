@@ -1,6 +1,8 @@
 {
-  "sms_send": {
-     "status": "1",
-    "message": "mobile incorrect"
-  }
+  "sms_send": [
+    { "id": "1234567890", "status": "1", "message": "mobile incorrect" },
+    { "id": "2345678901", "status": "2", "message": "maximum retries done" },
+    { "id": "3456789012", "status": "3", "message": "Could not generate OTP" },
+    { "id": "0123456789", "status": "0", "message": "Very good!" }
+  ]
 }
